@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Typing game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="score-container">
+                Highest Score By:
+                <div class="name-container">
+                    Robin - 75
+                </div>
+            </div>
+            <div class="heading">
+                Type Challenge
+            </div>
+            <div class="score-container">
+                Lowest score by:
+                <div class="name-container">
+                    Batman - 10
+                </div>
+            </div>
+        </div>
+        <div class="instruction-container">
+            Click on start to begin the game
+        </div>
+        <hr>
+        <div class="timer-line-container">
+            <div class="timer-line"></div>
+        </div>
+        <hr>
+        <div class="play-area">
+            <div class="player-name-container">
+                <span class="player-name">Player Name:</span>    
+                <input type="text" class="input-box" id="playerName">
+            </div>
+            <div class="start-container">
+                <div class="btn start-btn" onclick="startGame()">
+                    Start
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
